@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Operation</title>
+	<style type="text/css">
+		body{
+			background-color: lightblue;
+		}
+		.a{
+			color: white;
+			margin-left:200px;
+			text-decoration: none;
+		}
+		p,h1{
+			color: red;
+			text-align: center;
+		}
+		#fract{
+			width: 50px;
+			height: 50px;
+			background-color: red;
+			animation-name:square;
+			animation-duration: 5s;
+			animation-delay: 0;
+			animation-direction: alternate;
+			animation-timing-function: ease-out;
+			animation-iteration-count: infinite;
+			animation-play-state: running;
+		}
+		@keyframes square{
+			0%{
+				margin-left: 0%;
+			}
+			25%{
+			   margin-left: 100%;
+			}
+			75%{
+				margin-right: 50%;
+			}
+			100%{
+				margin-right: 100%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div style="background-color: darkblue;">
+		<a class="a" href="UKFOODS.html" target="_blank">Home</a>
+		<a class="a" href="UKFOODS location.html" target="_blank">Location</a>
+		<a class="a" href="UKFOODS pro ver 2.html" target="_blank">Products</a>
+		<a class="a" href="UKFOODS number.html" target="_blank">Contact Us</a>
+	</div>
+	<h1>Opening and closing times</h1>
+	<p>11:30 a.m. to 3:30 p.m. and 7:00 p.m. to 9:30 p.m.
+		<br>
+	Monday-Friday</p>
+	<div id="fract"></div>
+<script type="text/javascript" src="UKFOODS javascript.js">
+</script>
+
+</body>
+</html>
