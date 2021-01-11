@@ -21,5 +21,5 @@ function onav(){
 	alert("We heard that " + impro + " from you")
 	for(let i = 0;i<10;i++){
            var p = document.querySelector("pl").innerHTML = impro;
-		p.style.display = "inline"
+		p.style.display = "none"
 	}
