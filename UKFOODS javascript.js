@@ -23,3 +23,4 @@ function onav(){
            var p = document.querySelector("pl").innerHTML = impro;
 		p.style.display = "none"
 	}
+        var learn = ["undefined","null"]
